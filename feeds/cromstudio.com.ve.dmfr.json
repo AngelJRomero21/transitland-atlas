@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+  "feeds": [
+    {
+      "spec": "gtfs", // enum: ["gtfs", "gtfs-rt", "gbfs", "mds"]
+      "id": "f-vzla", // ID must be unique across all of your DMFR files; in the Transitland Atlas repo, this is a feed Onestop ID
+      "urls": { 
+        "static_current": "https://transporte.cromstudio.com.ve/data/.zip" // URL for the current version of the feed
+      }
+    }
+  ],
+  "license_spdx_identifier": "CC-BY-4.0" // license covering the DMFR file itself, not the feed contents
+}
